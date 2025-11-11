@@ -211,7 +211,7 @@ namespace Certify.Commands
                 new DerObjectIdentifier(CommonOids.SmartcardLogon),
                 new DerObjectIdentifier(CommonOids.CertificateRequestAgent)
             )));
-
+            // Bing bong
             // Subject Alternative Name - this is the targets we're actually forging the cert for
             var general_names = new Asn1EncodableVector();
 
